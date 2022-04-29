@@ -3,6 +3,7 @@
     grid-template-columns: min-content 1fr min-content;
     grid-template-rows: repeat(2, min-content);
 
+
     background-color: var(--alpha);
 
     &__leftBlock{
@@ -21,7 +22,7 @@
         align-items: center;
         padding: 12rem;
         li {
-            margin-left: 12rem;
+           margin-left: 20rem;
         }
     }
     &__droplist{
@@ -38,8 +39,8 @@
         margin-right: 10rem;
     }
     &__leftBlock img{
-        display:block;
-    //  padding-right: 5rem;
+        //display:block;
+        //padding-right: 5rem;
     }
     &__logo{
         color: var(--delta);
@@ -63,7 +64,7 @@
         }
     }
     @include respond-to('small'){
-        grid-template-columns: 1fr min-content minmax(490rem, auto) min-content 1fr;
+        grid-template-columns: 1fr min-content minmax(590rem, auto) min-content 1fr;
         
         &__leftBlock{
             grid-row: 1 / 2;

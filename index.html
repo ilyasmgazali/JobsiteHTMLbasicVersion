@@ -1,36 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/main.css">
-    <title>JobPlus</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/main.css">
+        <title>JobPlus</title>
+    </head>
     <body>
+      <section>
         <nav class="nav">
             <input type="checkbox" class="nav__toggle" id="Hamburger">
             <ul class="nav__leftBlock">
                 <li class="nav__hamburger"><label for="Hamburger"><img src="Images/Hamburger.svg" alt=""></label></li>
-                <li class="nav__logo"><a href="">JOBPlus+</a></li>
+                <li class="nav__logo"><a href="index.html">JOBPlus+</a></li>
             </ul>
             <ul class="nav__icons">
-                <li><a href=""><img src="Images/star 1.svg"></a></li>
-                <li><a href=""><img src="Images/bell-no-notification.svg"></a></li>
-                <li><a href=""><img src="Images/star 1.svg"></a><span class="nav__savedcount">1</span></li>
-                <li><a href=""><img src="Images/user.svg"></a></li>
-                <li><a href=""><img src="Images/logout.svg"></a></li>
+                <li><a href="listings.html"><img src="Images/magnifying-glass 1.svg"></a></li>
+                <li><a href="notifications.html"><img src="Images/bell-no-notification.svg"></a></li>
+                <li><a href="saved_jobs.html"><img src="Images/star 1.svg"></a><span class="nav__savedcount">1</span></li>
+                <li><a href="profile.html"><img src="Images/user.svg"></a></li>
+                <li><a href="login.html"><img src="Images/logout.svg"></a></li>
             </ul>
             <ul class="nav__droplist">
-                <a href=""><li>Home</li></a>
-                <a href=""><li>Job listings</li></a>
-                <a href=""><li>Job applications</li></a>
+                <a href="index.html"><li>Home</li></a>
+                <a href="listings.html"><li>Job listings</li></a>
+                <a href="applications.html"><li>Job applications</li></a>
             </ul>
         </nav>
         <div class="hero hero--bgimg">
             <div class="hero__wrap">
-                <h1>Connecting candidates to their dream jobs</h1>
+              <h1>Connecting candidates to their dream jobs</h1>
+              <div class="form">
+                <div class="form__group">
+                  <label class="form__label form__label--light">What</label>
+                  <input class="form__field" type="text" placeholder="Job title, skill or company">
+                </div>
+        
+                <div class="form__group">
+                  <label class="form__label form__label--light">Where</label>
+                  <input class="form__field" type="text" placeholder="Town, city or postcode">
+                </div>
+        
+                <div class="form__group">
+                  <input class="form__btn" type="submit" value="Search">
+                </div>
+              </div>
             </div>
+         </div>
+
+         <div class="container">
+          <div class="sector">
+            <h2>Choose your sector</h2>
+            <p>jobs across multiple sectors. See the latest roles now</p>
+      
+            <div class="sector__types">
+              <div class="sector__wrap">
+                <picture class="sector__picture">
+                  <source srcset="Images/luca-bravo-XJXWbfSo2f0-unsplash 1.svg" media="(min-width: 767px)">
+                  <source srcset="Images/luca-bravo-XJXWbfSo2f0-unsplash 1.svg">
+                  <img src="Images/luca-bravo-XJXWbfSo2f0-unsplash 1.svg" alt="">
+                </picture>
+                <div class="sector__name">Technology</div>
+                <ul class="sector__list">
+                  <li><a href="">Accountancy jobs <span>5, 757</span></a></li>
+                  <li><a href="">Acturial jobs <span>5, 757</span></a></li>
+                  <li><a href="">Admin, Secretarial jobs <span>5, 757</span></a></li>
+                </ul>
+              </div>
+      
+              <div class="sector__wrap">
+                <picture class="sector__picture">
+                  <source srcset="Images/ricardo-gomez-angel-sYK-jN0sKBY-unsplash 2.svg" media="(min-width: 767px)">
+                  <source srcset="Images/ricardo-gomez-angel-sYK-jN0sKBY-unsplash 1.svg">
+                  <img src="Images/ricardo-gomez-angel-sYK-jN0sKBY-unsplash 1.svg" alt="">
+                </picture>
+                <div class="sector__name">Technology</div>
+                <ul class="sector__list">
+                  <li><a href="">Accountancy jobs <span>5, 757</span></a></li>
+                  <li><a href="">Acturial jobs <span>5, 757</span></a></li>
+                  <li><a href="">Admin, Secretarial jobs <span>5, 757</span></a></li>
+                </ul>
+              </div>
+      
+              <div class="sector__wrap">
+                <picture class="sector__picture">
+                  <source srcset="Images/lucas-vasques-9vnACvX2748-unsplash 1.svg" media="(min-width: 767px)">
+                  <source srcset="Images/lucas-vasques-9vnACvX2748-unsplash 1.svg">
+                  <img src="Images/lucas-vasques-9vnACvX2748-unsplash 1.svg" alt="">
+                </picture>
+                <div class="sector__name">Technology</div>
+                <ul class="sector__list">
+                  <li><a href="">Accountancy jobs <span>5, 757</span></a></li>
+                  <li><a href="">Acturial jobs <span>5, 757</span></a></li>
+                  <li><a href="">Admin, Secretarial jobs <span>5, 757</span></a></li>
+                </ul>
+              </div>
+      
+              <a href="">
+                <div class="sector__browse">Browse all sectors</div>
+              </a>
+      
+              <ul class="sector__mlist">
+                <li><a href="">Accountancy jobs <span>5, 757</span></a></li>
+                <li><a href="">Acturial jobs <span>5, 757</span></a></li>
+                <li><a href="">Admin, Secretarial jobs <span>5, 757</span></a></li>
+              </ul>
+            </div>
+      
+          </div>
         </div>
+
+        <div class="cookie">
+          <p>
+            Jobplus uses cookies. By continuing you are agreeing to
+            our use of cookies. <a href="">Learn more</a>.
+          </p>
+          <img src="Images/cookie-close.svg" alt="">
+        </div>
+
+      </section>
+      <footer class="footer">COPYRIGHT &copy; jobplus 2020</footer>
+
     </body>
 </html>

@@ -1,6 +1,9 @@
 // VARIABLES
 @import "variables/colours.scss";
 
+//UTILITIES
+@import "utilities/fonts.scss";
+
 // RESETS
 @import "resets/normalize.scss";
 @import "resets/reset.local.scss";
@@ -11,3 +14,12 @@
 //COMPONENTS
 @import "components/nav.scss";
 @import "components/hero.scss";
+@import "components/form.scss";
+@import "components/container.scss";
+@import "components/sector.scss";
+@import "components/footer.scss";
+@import "components/body.scss";
+@import "components/cookie.scss";
+@import "components/listing.scss";
+@import "components/filter.scss";
+@import "components/paginate.scss";
