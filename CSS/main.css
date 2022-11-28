@@ -461,6 +461,9 @@ h1 {
 .nav__hamburger {
   margin-right: 10rem;
 }
+.nav__leftBlock img {
+  padding-right: 5rem;
+}
 .nav__logo {
   color: var(--delta);
   font-weight: bold;
@@ -484,8 +487,8 @@ h1 {
 }
 @media (min-width: 767px) {
   .nav {
-    grid-template-columns: 1fr -webkit-min-content minmax(590rem, auto) -webkit-min-content 1fr;
-    grid-template-columns: 1fr min-content minmax(590rem, auto) min-content 1fr;
+    grid-template-columns: 1fr -webkit-min-content minmax(460rem, auto) -webkit-min-content 1fr;
+    grid-template-columns: 1fr min-content minmax(460rem, auto) min-content 1fr;
   }
   .nav__leftBlock {
     grid-row: 1/2;
@@ -537,7 +540,7 @@ h1 {
     background-image: url(../../images/hero-small.svg);
   }
   .hero__wrap {
-    max-width: 895rem;
+    max-width: 770rem;
     margin: 10rem auto;
   }
   .hero h1 {
@@ -620,7 +623,7 @@ h1 {
 }
 
 .container {
-  max-width: 895rem;
+  max-width: 795rem;
   margin: 10rem auto;
 }
 
@@ -708,6 +711,10 @@ h1 {
   padding: 12rem;
   font-size: 13rem;
   text-align: center;
+}
+
+.body {
+  margin: auto;
 }
 
 .cookie {

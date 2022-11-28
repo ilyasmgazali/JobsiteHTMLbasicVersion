@@ -23,10 +23,11 @@
     @include respond-to("small"){
         //padding: 80rem;
         &--bgimg{
-            background-image: url(../../images/hero-small.svg);
+            background-image: url(../../images/hero-small.svg); //looked better so stuck with smaller image
         }
         &__wrap{
-            max-width: 895rem;
+            //max-width: 895rem; 
+            max-width: 770rem;
             margin: 10rem auto;
         }
         h1{
